@@ -45,4 +45,7 @@ In this _book_, we will present our results for the work we made on the subject 
 
 An exhaustive explanation using the **bookdown** package [@R-bookdown] can be found at <a href="https://bookdown.org/yihui/bookdown/">bookdown: Authoring Books and Technical Documents with R Markdown</a> and this is only a sample book, which was built on top of R Markdown and **knitr**
 
+This _book_ is publish through NETLIFY as described by <a href="https://cerebralmastication.com/2019/05/11/publishing-bookdown-to-netlify-automagically/">C.M.</a>
+
+
 <img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">
