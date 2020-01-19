@@ -24,7 +24,7 @@
 <meta name="author" content="Bruno Lima, Cátia Redondo" />
 
 
-<meta name="date" content="2020-01-18" />
+<meta name="date" content="2020-01-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -160,6 +160,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1><span class="header-section-number">2</span> Methods</h1>
 <p>Database used in this suty includes simulated data from 523 patients who were referred to sleep consultation for risk of obstructive sleep apnea. As two patients have no data for OSA, we considered on our analysis 521 patients. A total of 38 variables (table <a href="method.html#tab:vars">2.1</a>) were recorded as potential predictors for OSA.</p>
 <p>Patient characteristics were described using contingency tables. Univariate tests comparing categorical variables were conducted using univariate logistic regression.</p>
+<p>Variables with p-values &lt; 0.2 were selected for a stepwise logistic regression direction both that consists of iteratively adding and removing predictors. From this model we tried to define a new model with lower number of prediction variables.</p>
+<p>For measuring the performance of the predictive model we compute the it’s accuracy value and ROC curve. We did not split our data in training and a test sets, so the performance of the model was assessed in the same data used for modelling.</p>
+<p>To assess multicollinearity of the variables in the model we computed the variance inflation factors (VIF). As a rule of thumb, a VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity.</p>
 <table>
 <caption>
 <span id="tab:vars">Table 2.1: </span>potential prediction variables
