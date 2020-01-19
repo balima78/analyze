@@ -3,7 +3,7 @@
 ```{r setupR, include=FALSE}
 knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
 
-source("_dados.R")
+# source("_dados.R")
 ```
 
 In this study we analysed a total of `r dim(dados)[1]` subjects, from those `r with(dados, table(Gender))[2]` (`r round(with(dados, table(Gender))[2]/dim(dados)[1] * 100,2)`%) are male, and `r with(dados,table(OSA))[2]` (`r round(with(dados,table(OSA))[2] / dim(dados)[1] * 100, 2)`%) have OSA.

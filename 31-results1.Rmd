@@ -4,7 +4,7 @@
 ```{r , include=FALSE}
 knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
 
-source("_dados.R")
+# source("_dados.R")
 ```
 
 ## Descriptive analysis {#results1}
