@@ -1,0 +1,102 @@
+
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
+
+source("_dados.R")
+```
+
+## First Model {#results3}
+From the univariate analysis we pick those with p < 0.2 and excluded: Race, Decreased.Libido, Snore, Daytime.Sleepiness; once these have exagerated OR values.
+
+Remaining variables are:
+```{r}
+### dados com variaveis selecionados das analises univariadas
+### valores de p < 0.02 e excluidos Race, Decreased.Libido, Snore, Daytime.Sleepiness
+varsUni<-names(
+  dados %>% dplyr::select(vars2Results %>% dplyr::filter(pval < 0.2) %>% .$variavel, 
+                  Age.Cat,
+                  -Race,
+                  -Decreased.Libido, 
+                  -Snore, 
+                  -Daytime.Sleepiness,
+                  -Smoking)
+)
+
+pander(sort(varsUni))
+```
+
+```{r}
+osa.Selected<-dados %>% dplyr::select(vars2Results %>% 
+                                       dplyr::filter(pval < 0.2) %>% .$variavel,
+                                     Age.Cat,
+                                     osa,
+                                     -Race,
+                                     -Decreased.Libido,
+                                     -Snore,
+                                     -Daytime.Sleepiness,
+                                     -Smoking)
+
+osa.Selected <- osa.Selected[complete.cases(osa.Selected), ]
+
+```
+
+For logistic regression models we use a new data set only with complete cases: `r dim(osa.Selected)[1]` lines and `r dim(osa.Selected)[2]` colunms.
+
+### stepwise "both"
+```{r both}
+null.model<-glm(formula = osa ~ 1, family = "binomial",
+                data = osa.Selected)
+
+full.model<-glm(formula = osa ~ ., family = "binomial",
+                data = osa.Selected)
+
+step.both <-step(null.model,
+                    scope=list(lower=formula(null.model),
+                               upper=formula(full.model)), 
+                    trace = FALSE, 
+                    direction="both")
+
+
+tidy(step.both) %>% 
+  mutate(OR = round(exp(estimate),2)) %>% 
+  kable(caption = "Logistic regression model with stepwise both variable selection") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Model's formula
+
+```{r}
+formula(step.both) %>% pander()
+```
+
+### summary statistics
+```{r}
+glance(step.both)  %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Hosmer-Lemeshow Test
+```{r}
+phl.both<-hoslem.test(osa.Selected$osa, fitted(step.both), g=10)$p.value
+
+```
+For the Goodness of fit test we obtained a p-value = `r round(phl.both,3)`.
+
+### Pseudo R^2
+```{r}
+pR2(step.both) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Accuracy
+```{r}
+pred.both = predict(step.both, newdata=osa.Selected,type='response')
+
+acc.both <- table(ifelse(pred.both<0.5, 0, 1), osa.Selected[,"osa"])
+
+```
+`r round(sum(diag(acc.both))/sum(acc.both), 2)`
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

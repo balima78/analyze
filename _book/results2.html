@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.2 Univariate analysis | Basics of Health Intelligent Data Analysis</title>
+  <meta name="description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.2 Univariate analysis | Basics of Health Intelligent Data Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.2 Univariate analysis | Basics of Health Intelligent Data Analysis" />
+  
+  <meta name="twitter:description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Bruno Lima, Cátia Redondo" />
+
+
+<meta name="date" content="2020-01-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="results1.html"/>
+<link rel="next" href="results3.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">ANALYZE on HEADS</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="method.html"><a href="method.html"><i class="fa fa-check"></i><b>2</b> Methods</a></li>
+<li class="chapter" data-level="3" data-path="result.html"><a href="result.html"><i class="fa fa-check"></i><b>3</b> Results</a><ul>
+<li class="chapter" data-level="3.1" data-path="results1.html"><a href="results1.html"><i class="fa fa-check"></i><b>3.1</b> Descriptive analysis</a></li>
+<li class="chapter" data-level="3.2" data-path="results2.html"><a href="results2.html"><i class="fa fa-check"></i><b>3.2</b> Univariate analysis</a></li>
+<li class="chapter" data-level="3.3" data-path="results3.html"><a href="results3.html"><i class="fa fa-check"></i><b>3.3</b> First Model</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="results3.html"><a href="results3.html#stepwise-both"><i class="fa fa-check"></i><b>3.3.1</b> stepwise “both”</a></li>
+<li class="chapter" data-level="3.3.2" data-path="results3.html"><a href="results3.html#models-formula"><i class="fa fa-check"></i><b>3.3.2</b> Model’s formula</a></li>
+<li class="chapter" data-level="3.3.3" data-path="results3.html"><a href="results3.html#summary-statistics"><i class="fa fa-check"></i><b>3.3.3</b> summary statistics</a></li>
+<li class="chapter" data-level="3.3.4" data-path="results3.html"><a href="results3.html#hosmer-lemeshow-test"><i class="fa fa-check"></i><b>3.3.4</b> Hosmer-Lemeshow Test</a></li>
+<li class="chapter" data-level="3.3.5" data-path="results3.html"><a href="results3.html#pseudo-r2"><i class="fa fa-check"></i><b>3.3.5</b> Pseudo R^2</a></li>
+<li class="chapter" data-level="3.3.6" data-path="results3.html"><a href="results3.html#accuracy"><i class="fa fa-check"></i><b>3.3.6</b> Accuracy</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="results4.html"><a href="results4.html"><i class="fa fa-check"></i><b>3.4</b> New Model</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="results4.html"><a href="results4.html#new-models-formula"><i class="fa fa-check"></i><b>3.4.1</b> New model’s formula</a></li>
+<li class="chapter" data-level="3.4.2" data-path="results4.html"><a href="results4.html#summary-statistics-1"><i class="fa fa-check"></i><b>3.4.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.4.3" data-path="results4.html"><a href="results4.html#hosmer-lemeshow-test-1"><i class="fa fa-check"></i><b>3.4.3</b> Hosmer-Lemeshow Test</a></li>
+<li class="chapter" data-level="3.4.4" data-path="results4.html"><a href="results4.html#pseudo-r2-1"><i class="fa fa-check"></i><b>3.4.4</b> Pseudo R^2</a></li>
+<li class="chapter" data-level="3.4.5" data-path="results4.html"><a href="results4.html#accuracy-1"><i class="fa fa-check"></i><b>3.4.5</b> Accuracy</a></li>
+<li class="chapter" data-level="3.4.6" data-path="results4.html"><a href="results4.html#roc"><i class="fa fa-check"></i><b>3.4.6</b> ROC</a></li>
+<li class="chapter" data-level="3.4.7" data-path="results4.html"><a href="results4.html#vif"><i class="fa fa-check"></i><b>3.4.7</b> VIF</a></li>
+<li class="chapter" data-level="3.4.8" data-path="results4.html"><a href="results4.html#leave-one-out"><i class="fa fa-check"></i><b>3.4.8</b> leave one out</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discus.html"><a href="discus.html"><i class="fa fa-check"></i><b>4</b> Discussion</a></li>
+<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Basics of Health Intelligent Data Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="results2" class="section level2">
+<h2><span class="header-section-number">3.2</span> Univariate analysis</h2>
+Table <a href="results2.html#tab:ors">3.2</a> Odds Ratios and p-values for each dichotomic variable in a univariate analysis.
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:ors">Table 3.2: </span>Univariate analysis for dicotomic variables
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+variavel
+</th>
+<th style="text-align:left;">
+categoria
+</th>
+<th style="text-align:left;">
+OR
+</th>
+<th style="text-align:right;">
+2.5 %
+</th>
+<th style="text-align:right;">
+97.5 %
+</th>
+<th style="text-align:left;">
+pval
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+AC.Cat
+</td>
+<td style="text-align:left;">
+AC.CatIncreased
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.04</span>
+</td>
+<td style="text-align:right;">
+0.52
+</td>
+<td style="text-align:right;">
+1.98
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.917</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AF
+</td>
+<td style="text-align:left;">
+AFYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">6.58</span>
+</td>
+<td style="text-align:right;">
+3.30
+</td>
+<td style="text-align:right;">
+15.08
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Alcohol
+</td>
+<td style="text-align:left;">
+AlcoholYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.95</span>
+</td>
+<td style="text-align:right;">
+1.34
+</td>
+<td style="text-align:right;">
+2.85
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.001</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+BMI.Cat
+</td>
+<td style="text-align:left;">
+BMI.CatObese
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.2</span>
+</td>
+<td style="text-align:right;">
+0.83
+</td>
+<td style="text-align:right;">
+1.75
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.327</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CFA
+</td>
+<td style="text-align:left;">
+CFAYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">14.03</span>
+</td>
+<td style="text-align:right;">
+7.61
+</td>
+<td style="text-align:right;">
+27.70
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CHF
+</td>
+<td style="text-align:left;">
+CHFYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">2.45</span>
+</td>
+<td style="text-align:right;">
+1.49
+</td>
+<td style="text-align:right;">
+4.19
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.001</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chocking
+</td>
+<td style="text-align:left;">
+ChockingYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.84</span>
+</td>
+<td style="text-align:right;">
+0.57
+</td>
+<td style="text-align:right;">
+1.23
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.382</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coffee
+</td>
+<td style="text-align:left;">
+CoffeeYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.1</span>
+</td>
+<td style="text-align:right;">
+0.61
+</td>
+<td style="text-align:right;">
+1.90
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.75</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Conc.decrease
+</td>
+<td style="text-align:left;">
+Conc.decreaseYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.45</span>
+</td>
+<td style="text-align:right;">
+0.30
+</td>
+<td style="text-align:right;">
+0.66
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Daytime.Sleepiness
+</td>
+<td style="text-align:left;">
+Daytime.SleepinessYes
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.1</span>
+</td>
+<td style="text-align:right;">
+0.03
+</td>
+<td style="text-align:right;">
+0.22
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Decreased.Libido
+</td>
+<td style="text-align:left;">
+Decreased.LibidoYes
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">106.37</span>
+</td>
+<td style="text-align:right;">
+32.52
+</td>
+<td style="text-align:right;">
+655.40
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Depression
+</td>
+<td style="text-align:left;">
+DepressionYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.83</span>
+</td>
+<td style="text-align:right;">
+0.36
+</td>
+<td style="text-align:right;">
+1.77
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.641</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes
+</td>
+<td style="text-align:left;">
+DiabetesYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.51</span>
+</td>
+<td style="text-align:right;">
+1.04
+</td>
+<td style="text-align:right;">
+2.19
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.029</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Driver
+</td>
+<td style="text-align:left;">
+DriverYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">2.03</span>
+</td>
+<td style="text-align:right;">
+1.03
+</td>
+<td style="text-align:right;">
+4.39
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.053</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dyslipidemia
+</td>
+<td style="text-align:left;">
+DyslipidemiaYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">6.28</span>
+</td>
+<td style="text-align:right;">
+3.65
+</td>
+<td style="text-align:right;">
+11.14
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ESS.Cat
+</td>
+<td style="text-align:left;">
+ESS.CatDaytime Sleepiness
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.37</span>
+</td>
+<td style="text-align:right;">
+0.24
+</td>
+<td style="text-align:right;">
+0.56
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GE.Reflux
+</td>
+<td style="text-align:left;">
+GE.RefluxYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">5.5</span>
+</td>
+<td style="text-align:right;">
+3.10
+</td>
+<td style="text-align:right;">
+10.57
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Gender
+</td>
+<td style="text-align:left;">
+GenderMale
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">3.23</span>
+</td>
+<td style="text-align:right;">
+2.20
+</td>
+<td style="text-align:right;">
+4.77
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Genetics
+</td>
+<td style="text-align:left;">
+GeneticsYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.2</span>
+</td>
+<td style="text-align:right;">
+0.13
+</td>
+<td style="text-align:right;">
+0.30
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Headaches
+</td>
+<td style="text-align:left;">
+HeadachesYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.22</span>
+</td>
+<td style="text-align:right;">
+0.84
+</td>
+<td style="text-align:right;">
+1.76
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.303</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Humor
+</td>
+<td style="text-align:left;">
+HumorYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">8.35</span>
+</td>
+<td style="text-align:right;">
+3.87
+</td>
+<td style="text-align:right;">
+20.10
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hypertension
+</td>
+<td style="text-align:left;">
+HypertensionYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">3.28</span>
+</td>
+<td style="text-align:right;">
+2.12
+</td>
+<td style="text-align:right;">
+5.10
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hypothyroidism
+</td>
+<td style="text-align:left;">
+HypothyroidismYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">2.24</span>
+</td>
+<td style="text-align:right;">
+1.50
+</td>
+<td style="text-align:right;">
+3.40
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MI
+</td>
+<td style="text-align:left;">
+MIYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.9</span>
+</td>
+<td style="text-align:right;">
+1.16
+</td>
+<td style="text-align:right;">
+3.20
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.013</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NC.Cat
+</td>
+<td style="text-align:left;">
+NC.CatIncreased
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.82</span>
+</td>
+<td style="text-align:right;">
+1.25
+</td>
+<td style="text-align:right;">
+2.65
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.002</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nocturia
+</td>
+<td style="text-align:left;">
+NocturiaYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.84</span>
+</td>
+<td style="text-align:right;">
+1.26
+</td>
+<td style="text-align:right;">
+2.68
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.002</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PHT
+</td>
+<td style="text-align:left;">
+PHTYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">5.47</span>
+</td>
+<td style="text-align:right;">
+3.69
+</td>
+<td style="text-align:right;">
+8.21
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Race
+</td>
+<td style="text-align:left;">
+RaceCaucasian
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">618.86</span>
+</td>
+<td style="text-align:right;">
+255.63
+</td>
+<td style="text-align:right;">
+1740.99
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+RefreshingSleep
+</td>
+<td style="text-align:left;">
+RefreshingSleepYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.13</span>
+</td>
+<td style="text-align:right;">
+0.71
+</td>
+<td style="text-align:right;">
+1.82
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.615</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Renal.Failure
+</td>
+<td style="text-align:left;">
+Renal.FailureYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">2.35</span>
+</td>
+<td style="text-align:right;">
+1.53
+</td>
+<td style="text-align:right;">
+3.69
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+RestlessSleep
+</td>
+<td style="text-align:left;">
+RestlessSleepYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.15</span>
+</td>
+<td style="text-align:right;">
+0.76
+</td>
+<td style="text-align:right;">
+1.72
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.51</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sedatives
+</td>
+<td style="text-align:left;">
+SedativesYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">1.22</span>
+</td>
+<td style="text-align:right;">
+0.59
+</td>
+<td style="text-align:right;">
+2.44
+</td>
+<td style="text-align:left;">
+<span style="     color: red !important;">0.581</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Stroke
+</td>
+<td style="text-align:left;">
+StrokeYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">3.46</span>
+</td>
+<td style="text-align:right;">
+1.96
+</td>
+<td style="text-align:right;">
+6.56
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+VehicleCrashes
+</td>
+<td style="text-align:left;">
+VehicleCrashesYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0.13</span>
+</td>
+<td style="text-align:right;">
+0.06
+</td>
+<td style="text-align:right;">
+0.26
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wit.Apneas
+</td>
+<td style="text-align:left;">
+Wit.ApneasYes
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">2.1</span>
+</td>
+<td style="text-align:right;">
+1.43
+</td>
+<td style="text-align:right;">
+3.10
+</td>
+<td style="text-align:left;">
+<span style="     color: blue !important;">0</span>
+</td>
+</tr>
+</tbody>
+</table>
+Now for smoking:
+<table>
+<caption>
+<span id="tab:unnamed-chunk-6">Table 3.3: </span>Logistic Regression results for Smoking
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+OR
+</th>
+<th style="text-align:right;">
+2.5 %
+</th>
+<th style="text-align:right;">
+97.5 %
+</th>
+<th style="text-align:right;">
+pval
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+(Intercept)
+</td>
+<td style="text-align:right;">
+2.04
+</td>
+<td style="text-align:right;">
+1.60
+</td>
+<td style="text-align:right;">
+2.64
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SmokingEX
+</td>
+<td style="text-align:right;">
+1.26
+</td>
+<td style="text-align:right;">
+0.82
+</td>
+<td style="text-align:right;">
+1.97
+</td>
+<td style="text-align:right;">
+0.29
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SmokingYes
+</td>
+<td style="text-align:right;">
+0.90
+</td>
+<td style="text-align:right;">
+0.55
+</td>
+<td style="text-align:right;">
+1.50
+</td>
+<td style="text-align:right;">
+0.68
+</td>
+</tr>
+</tbody>
+</table>
+And for Age category:
+<table>
+<caption>
+<span id="tab:unnamed-chunk-7">Table 3.4: </span>Logistic Regression results for Age Category
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+OR
+</th>
+<th style="text-align:right;">
+2.5 %
+</th>
+<th style="text-align:right;">
+97.5 %
+</th>
+<th style="text-align:right;">
+pval
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+(Intercept)
+</td>
+<td style="text-align:right;">
+0.38
+</td>
+<td style="text-align:right;">
+0.20
+</td>
+<td style="text-align:right;">
+0.68
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat40-54
+</td>
+<td style="text-align:right;">
+2.64
+</td>
+<td style="text-align:right;">
+1.34
+</td>
+<td style="text-align:right;">
+5.44
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat55-69
+</td>
+<td style="text-align:right;">
+10.15
+</td>
+<td style="text-align:right;">
+5.15
+</td>
+<td style="text-align:right;">
+21.01
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat&gt;=70
+</td>
+<td style="text-align:right;">
+20.92
+</td>
+<td style="text-align:right;">
+9.16
+</td>
+<td style="text-align:right;">
+51.51
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/LogoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right"></p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="results1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="results3.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["analyze.pdf", "analyze.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+---
+title: "LogRegression"
+author: "Bruno A Lima"
+date: "14 de Dezembro de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+
+library(tidyverse)
+library(pander)
+library(DT)
+library(kableExtra)
+library(MASS)
+library(broom)
+library(ResourceSelection)
+library(pscl)
+
+## ler dados
+osa5 <- read.csv("1.dados/osa_simulated_523.csv", na.strings = "")
+
+```
+
+Base de dados de dimensão: `r dim(osa5)` (linhas, colunas)
+
+## Tabelas de contingência
+variaveis predictores pela variavel OSA
+
+```{r}
+# variaveis predictoras
+vars<-names(osa5[-1])
+## tabelar as variaveis com OSA
+
+for(var in vars){
+print(
+    xtabs(as.formula(paste("~ OSA +", var )), data = osa5)
+)
+}
+```
+
+## Analise univariada
+### variaveis dicotomicas
+Análise univariada para variaveis dicotómicas (excluídas as variaveis OSA, Smoking, Age.Cat) 
+Resultadso de regressoes logisticas univariadas:
+
+```{r}
+vars2<-names(osa5[,-c(1, 6, 10)])
+
+p<-NA
+varcat<-NA
+ors<-NA
+ciInf<-NA
+ciSup<-NA
+for(i in 1:length(vars2)){
+  mod<-glm(as.formula(paste("OSA ~ ", vars2[i])), 
+           data = osa5, family = binomial(link="logit"))
+  p[i]<-round(summary(mod)$coefficients[2,4], 3)
+  varcat[i]<-rownames(summary(mod)$coefficients)[2]
+  ors[i]<-round(exp(coef(mod)[2]),2)
+  ciInf[i]<-round(exp(confint(mod)[2,1]), 2)
+  ciSup[i]<-round(exp(confint(mod)[2,2]), 2)
+}
+
+vars2Results<-data.frame(variavel = vars2, categoria = varcat, 
+                         OR = ors, ciInf = ciInf, ciSup = ciSup,
+                         pval = p)
+
+
+brks <- quantile(seq(0,1,0.1), na.rm = TRUE)
+clrs <- round(seq(255, 40, length.out = length(brks) + 1), 0) %>%
+  {paste0("rgb(255,", ., ",", ., ")")}
+
+vars2Results %>% mutate(pval = cell_spec(pval, "html", 
+                                         color = ifelse(pval > 0.2, 
+                                                        "red", "blue")),
+                        OR = cell_spec(OR, "html", 
+                                         color = ifelse(OR <= 0.1 | OR > 100, 
+                                                        "red", "blue"))
+                        ) %>% kable(format = "html", escape = F) %>%
+  kable_styling("striped", full_width = F)
+
+
+```
+
+### variavel Smoking
+```{r}
+modS<-glm(OSA ~ Smoking, data = osa5, family = binomial(link="logit"))
+
+datatable(round(
+  summary(modS)$coefficients, 2), caption = "resultados de Reg Logistica",
+  options = list(sDom  = '<"top">lrt<"bottom">ip', lengthChange = FALSE)
+)
+```
+
+### variavel Age.Cat
+```{r}
+modA<-glm(OSA ~ Age.Cat, data = osa5, family = binomial(link="logit"))
+
+datatable(
+round(
+  summary(modA)$coefficients, 2), caption = "resultados de Reg Logistica",
+  options = list(sDom  = '<"top">lrt<"bottom">ip', lengthChange = FALSE)
+)
+```
+
+### Variaveis seleccionadas 
+Das analises univariadas selecionei as que apresentaram valores de p < 0.2.
+Exclui também as variaveis: Race, Decreased.Libido, Snore, Daytime.Sleepiness; tendo em conbta os resultados 'exagerados' na analise univariada 
+
+```{r}
+### dados com variaveis selecionados das analises univariadas
+### valores de p < 0.02 e excluidos Race, Decreased.Libido, Snore, Daytime.Sleepiness
+varsUni<-names(
+  osa5 %>% dplyr::select(vars2Results %>% dplyr::filter(pval < 0.2) %>% .$variavel, 
+                  Age.Cat,
+                  -Race,
+                  -Decreased.Libido, 
+                  -Snore, 
+                  -Daytime.Sleepiness,
+                  -Smoking)
+)
+
+pander(varsUni)
+```
+
+```{r}
+osa.Selected<-osa5 %>% dplyr::select(vars2Results %>% 
+                                       dplyr::filter(pval < 0.2) %>% .$variavel,
+                                     Age.Cat,
+                                     OSA, 
+                                     -Race,
+                                     -Decreased.Libido,
+                                     -Snore,
+                                     -Daytime.Sleepiness,
+                                     -Smoking)
+
+osa.Selected <- osa.Selected[complete.cases(osa.Selected), ]
+osa.Selected<-osa.Selected %>% mutate(OSA = case_when(OSA == "Yes" ~ 1,
+                                      OSA == "No" ~ 0))
+```
+
+Utilizada base de dados apenas com casos completos de dimensão: `r dim(osa.Selected)`(linhas, colunas)
+
+## Modelo de Regressão Logistica
+### Full model
+```{r}
+
+full.model<-glm(formula = OSA ~ ., family = "binomial",
+                data = osa.Selected)
+
+tidy(full.model) %>% mutate(OR = round(exp(estimate),2)) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+### summary statistics
+```{r}
+glance(full.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Hosmer-Lemeshow Test
+```{r}
+hoslem.test(osa.Selected$OSA, fitted(full.model), g=10)
+```
+
+### Pseudo R^2
+```{r}
+pR2(full.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Accuracy
+```{r}
+pred.full = predict(full.model, newdata=osa.Selected,type='response')
+
+acc.full <- table(ifelse(pred.full<0.5, 0, 1), osa.Selected[,"OSA"])
+
+```
+`r round(sum(diag(acc.full))/sum(acc.full), 2)`
+
+## stepwise "both"
+```{r}
+null.model<-glm(formula = OSA ~ 1, family = "binomial",
+                data = osa.Selected)
+
+step.both <-step(null.model,
+                    scope=list(lower=formula(null.model),
+                               upper=formula(full.model)), 
+                    trace = FALSE, 
+                    direction="both")
+
+
+tidy(step.both) %>% 
+  mutate(OR = round(exp(estimate),2)) %>% 
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+
+### summary statistics
+```{r}
+glance(step.both)  %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Hosmer-Lemeshow Test
+```{r}
+hoslem.test(osa.Selected$OSA, fitted(step.both), g=10)
+```
+
+### Pseudo R^2
+```{r}
+pR2(step.both) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Accuracy
+```{r}
+pred.both = predict(step.both, newdata=osa.Selected,type='response')
+
+acc.both <- table(ifelse(pred.both<0.5, 0, 1), osa.Selected[,"OSA"])
+
+```
+`r round(sum(diag(acc.both))/sum(acc.both), 2)`
+
+### evolução do modelo
+```{r}
+step.both$anova %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+formula stepwise model:
+```{r}
+formula(step.both)
+```
+
+### New model
+```{r}
+
+new.model<-glm(formula = OSA ~ Gender + Genetics + VehicleCrashes + 
+                 CFA + Humor + Driver + GE.Reflux + Wit.Apneas + 
+                 Diabetes + Hypertension +Nocturia, 
+               family = "binomial",
+               data = osa.Selected)
+
+tidy(new.model) %>% mutate(OR = round(exp(estimate),2)) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+### summary statistics
+```{r}
+glance(new.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Hosmer-Lemeshow Test
+```{r}
+hoslem.test(osa.Selected$OSA, fitted(new.model), g=10)
+```
+
+### Pseudo R^2
+```{r}
+pR2(new.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Accuracy
+```{r}
+pred.new = predict(new.model, newdata=osa.Selected,type='response')
+
+acc.new <- table(ifelse(pred.new<0.5, 0, 1), osa.Selected[,"OSA"])
+
+```
+`r round(sum(diag(acc.new))/sum(acc.new), 2)`
+
+formula **new** model:
+```{r}
+formula(new.model)
+```
+
+Comaparação dos modelos:
+```{r}
+anova(step.both, new.model, test = "Chisq")
+```
+

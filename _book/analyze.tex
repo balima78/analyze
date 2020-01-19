@@ -1,0 +1,296 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Basics of Health Intelligent Data Analysis},
+            pdfauthor={Bruno Lima, Cátia Redondo},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Basics of Health Intelligent Data Analysis}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Bruno Lima, Cátia Redondo}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-11-02}
+
+\usepackage{booktabs}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter*{}\label{section}
+\addcontentsline{toc}{chapter}{}
+
+\includegraphics{images/heads.png}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+This is a \emph{book} written in \textbf{Markdown} through
+\emph{RStudio}.
+
+The \textbf{bookdown} package \citep{xie2015} can be installed from CRAN
+or Github:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
+\CommentTok{# or the development version}
+\CommentTok{# devtools::install_github("rstudio/bookdown")}
+\end{Highlighting}
+\end{Shaded}
+
+To compile this example to PDF, you need XeLaTeX. You are recommended to
+install TinyTeX (which includes XeLaTeX):
+\url{https://yihui.name/tinytex/}.
+
+In this \emph{book}, we will present our results for the work we made on
+the subject of \textbf{Basics of Health Intelligent Data Analysis} from
+the \textbf{HEADS} PhD programme.
+
+An exhaustive explanation using the \textbf{bookdown} package
+\citep{R-bookdown} can be found at bookdown: Authoring Books and
+Technical Documents with R Markdown and this is only a sample book,
+which was built on top of R Markdown and \textbf{knitr}
+
+\chapter{Introduction}\label{intro}
+
+A legend from the III century AC bring us Saints Cosmas and Damian, two
+christian martyrs whom practiced medicine in the region of Aegeae,
+actual southwest Turkey. They were Anarguroi, reluctant of asking for
+money and, according to the legend or miracle, they were capable of
+transplanting the leg of a dead Ethiopian to an amputated Individual.
+Many years later, 17 centuries after that, at Boston in 1954, Doctor
+Joseph Murray succeeded in transplanting a kidney to an individual. The
+transplantation performed by the Southafrican surgeon, Christiaan
+Barnard in 1967, the first successful heart transplantation ever
+performed, was probably the one that made transplantation surgery
+front-page prompting even more longings and promising dreams. Since
+then, the technique has developed enormously.
+
+Nowadays, organ transplantation is a medical practice performed
+worldwide. If we take a look at that transplantation cartography it
+reveals that the distribution of such technique, or clinical practice is
+deeply unequal. Where economic resources exist where technology is
+available transplantation surgery is almost routine. However, in many
+places in the world is simply, and unfortunately, nothing but a dream.
+
+In this study we aim to do a descritive analysis of deceased organ
+donors used for transplantation in Portugal.
+
+\chapter{Methods}\label{method}
+
+Data used in this study was collected from IPST data base the register
+for organ transplants performed in Portugal. Between 2016 and 2018, a
+total of 891 deceased organ donors where registered. For each donor data
+on transplantation date, region, sex, age, height, weight, cause of
+death, Coordination Transplant Office (CTO) (table \ref{tab:ctos}), AB0
+blood type, HLA typing, transplanted organs (kidney, heart, lung, leaver
+and pancreas), kidney transplant unit (TxU) (table \ref{tab:txus}) and
+diagnosis of death (brain death (BD) or cardiocirculatory death (CD)).
+
+We performed a descriptive analysis in order to summarize deceased organ
+donors characteristics.
+
+\begin{table}
+
+\caption{\label{tab:ctos}Coordination Transplant Offices}
+\centering
+\begin{tabular}[t]{lll}
+\toprule
+CTO & name & region\\
+\midrule
+CHP & Centro Hospitalar do Porto & North\\
+CHSJ & Centro Hospitalar Sao Joao & North\\
+CHUC & Centro Hospitalar Universidade de Coimbra & Center\\
+CHLC & Centro Hospitalar Lisboa Central & South\\
+CHLN & Centro Hopitalar Lisboa Norte & South\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In Portugal we have a total of 5 Coordination Transplant Offices (CTO)
+responsables for the identification of potential donors, and 8 kidney
+Transplant Units (TxU) divided by 3 regions.
+
+\begin{table}
+
+\caption{\label{tab:txus}Kidney Transplant Units}
+\centering
+\begin{tabular}[t]{l|l|l}
+\hline
+TxU & name & region\\
+\hline
+CHP & Centro Hospitalar do Porto & North\\
+\hline
+CHSJ & Centro Hospitalar Sao Joao & North\\
+\hline
+CHUC & Centro Hospitalar Universidade de Coimbra & Center\\
+\hline
+CHLC & Centro Hospitalar Lisboa Central & South\\
+\hline
+CHLN & Centro Hopitalar Lisboa Norte & South\\
+\hline
+CHLO & Centro Hospitalar Lisboa Norte & South\\
+\hline
+CVP & Cruz Vermelha Portuguesa & South\\
+\hline
+HGO & Hospital Garcia de Orta & South\\
+\hline
+\end{tabular}
+\end{table}
+
+All the analysis and graphic representations where performed in
+\emph{RStudio}, an integrated development environment (IDE) for
+\textbf{R} programming language.
+
+\chapter{Results}\label{result}
+
+Between 2016 and 2018, we have a total of 295, 308 and 288 donors
+resopectively (table \ref{tab:dyear})
+
+\begin{tabular}{r|r}
+\hline
+year & n\\
+\hline
+2016 & 295\\
+\hline
+2017 & 308\\
+\hline
+2018 & 288\\
+\hline
+\end{tabular}
+
+\section{Donors}\label{donors}
+
+\section{Transplants}\label{transplants}
+
+\chapter{Discussion}\label{discus}
+
+A discussion about our results.
+
+\chapter{Final Words}\label{final-words}
+
+We have finished a nice book.
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}

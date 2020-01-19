@@ -1,0 +1,524 @@
+OSA,Gender,Depression,Headaches,Decreased.Libido,Smoking,Alcohol,Sedatives,Humor,Age.Cat,MI,Hypothyroidism,Coffee,Race,Dyslipidemia,Diabetes,CFA,CHF,Wit.Apneas,AF,Daytime.Sleepiness,Stroke,Renal.Failure,Genetics,GE.Reflux,Hypertension,AC.Cat,Driver,Snore,Chocking,ESS.Cat,Conc.decrease,NC.Cat,VehicleCrashes,Nocturia,RestlessSleep,PHT,RefreshingSleep,BMI.Cat
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,No,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,No,No,Yes,No,40-54,No,,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,No,Yes,EX,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Normal,Yes,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Male,No,No,Yes,Yes,No,No,Yes,>=70,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,Yes,,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,No,Caucasian,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,Yes,Yes,No,No,No,Yes,,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,Yes,,Yes,Caucasian,Yes,Yes,Yes,No,No,Yes,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,No,Yes,Obese
+Yes,Male,No,No,Yes,Yes,Yes,No,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,Yes,No,Normal
+No,Female,Yes,Yes,No,Yes,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+No,,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,No,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,Yes,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,,Yes,Increased,Yes,No,Yes,No,Yes,Normal
+Yes,,Yes,Yes,Yes,No,No,Yes,Yes,55-69,Yes,Yes,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,Yes,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Obese
+Yes,Male,No,No,Yes,No,Yes,No,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,No,No,Yes,No,No,Yes,No,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,No,No,No,No,Yes,Yes,>=70,No,No,Yes,African,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+No,Male,Yes,No,Yes,EX,Yes,No,Yes,<40,No,Yes,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,Yes,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,Yes,No,No,No,,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,No,Yes,Obese
+Yes,Male,Yes,Yes,,Yes,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,Yes,Yes,No,Normal,Yes,Normal,Yes,No,Yes,Yes,No,Obese
+No,Female,,Yes,No,No,No,Yes,No,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,Yes,Normal
+No,Male,Yes,Yes,No,Yes,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,Yes,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,No,Increased,Yes,Yes,Yes,No,Yes,Normal
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,African,Yes,Yes,No,No,Yes,No,Yes,No,No,No,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,Yes,Yes,Yes,No,Obese
+No,Female,Yes,No,No,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,Yes,No,Yes,,Yes,Yes,,Yes,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,Yes,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,No,No,No,Yes,No,No,No,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,40-54,No,No,Yes,African,No,No,Yes,No,No,No,Yes,,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,No,No,Obese
+No,Male,No,No,No,No,No,No,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,No,No,Yes,,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,Yes,No,Yes,Yes,<40,No,No,No,African,No,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Male,No,Yes,Yes,No,No,No,Yes,>=70,No,,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,No,Caucasian,Yes,No,,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,Yes,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,Yes,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,No,No,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,No,No,Yes,Normal
+No,Female,Yes,Yes,No,No,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,Yes,Yes,No,No,Yes,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,No,Yes,Yes,EX,Yes,No,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,Yes,EX,No,Yes,Yes,<40,Yes,Yes,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Normal,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,No,Yes,Yes,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Normal,Yes,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,55-69,,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,,Yes,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,,Caucasian,Yes,No,Yes,Yes,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,Yes,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,No,No,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,Yes,No,Normal
+No,Female,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,No,African,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+,Female,Yes,Yes,Yes,Yes,Yes,Yes,Yes,<40,Yes,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,No,Yes,Yes,Normal
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Normal,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,No,>=70,No,Yes,Yes,African,Yes,No,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Increased,No,Yes,,Normal,No,Increased,No,No,Yes,No,No,Obese
+No,Male,Yes,No,Yes,EX,No,Yes,Yes,40-54,No,Yes,No,African,Yes,Yes,Yes,No,No,No,Yes,No,No,No,,Yes,Normal,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,No,No,Normal
+No,Female,Yes,Yes,Yes,No,Yes,No,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,Yes,No,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,No,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,,Normal
+Yes,Male,Yes,No,Yes,Yes,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,No,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,<40,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Normal,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,
+No,Female,Yes,Yes,Yes,Yes,No,Yes,Yes,<40,No,No,Yes,African,No,No,No,No,Yes,No,Yes,Yes,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,No,No,Normal
+No,Male,Yes,No,No,Yes,Yes,Yes,No,<40,No,No,Yes,Caucasian,No,No,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,No,No,No,Normal
+No,Female,No,Yes,No,No,Yes,No,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,No,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Obese
+No,Male,No,No,No,EX,Yes,No,Yes,40-54,No,Yes,No,African,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,,,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,,Yes,40-54,No,No,Yes,Caucasian,Yes,No,,Yes,No,No,No,No,No,No,,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,Yes,Yes,No,Normal,No,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,No,No,Yes,No,Yes,No,Yes,55-69,Yes,No,Yes,Caucasian,No,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,EX,No,Yes,Yes,>=70,No,Yes,Yes,African,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Increased,,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,Yes,EX,No,Yes,Yes,>=70,Yes,Yes,No,African,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,<40,No,No,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,No,African,Yes,No,No,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Increased,No,,Yes,Daytime Sleepiness,No,Increased,No,Yes,No,Yes,Yes,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,No,African,Yes,No,No,No,Yes,No,Yes,No,No,No,,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,No,Yes,Yes,No,Normal
+No,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,40-54,Yes,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,No,Yes,Yes,No,Yes,No,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,No,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,<40,,Yes,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,No,55-69,No,No,Yes,African,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,,Yes,Normal,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Normal,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,Yes,Yes,No,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,Yes,Yes,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,,No,No,No,No,Normal,Yes,Yes,No,Daytime Sleepiness,Yes,Increased,Yes,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,No,Yes,Normal,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,Yes,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,No,Yes,Yes,No,Normal
+No,Female,Yes,No,Yes,EX,No,Yes,Yes,55-69,Yes,Yes,No,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,No,Normal,Yes,Increased,Yes,No,No,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,No,Yes,Yes,Yes,Yes,<40,No,No,,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,No,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Normal
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,Yes,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,,,Yes,No,Yes,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,,No,Normal,Yes,Increased,No,No,Yes,No,Yes,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,No,No,No,Yes,Obese
+No,Female,Yes,No,No,No,No,Yes,Yes,>=70,No,No,No,African,Yes,Yes,Yes,,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Female,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,No,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,No,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,No,Yes,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,No,EX,Yes,Yes,No,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Male,Yes,,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,No,No,Yes,Yes,<40,No,,Yes,African,No,No,No,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,No,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Normal,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,No,No,No,No,,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,No,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,No,Yes,No,Obese
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,Yes,No,Yes,No,,Normal
+Yes,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,<40,No,Yes,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,Yes,Normal
+No,Male,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,Yes,Obese
+No,Female,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Normal,Yes,Normal,Yes,Yes,No,No,No,Obese
+Yes,Male,No,No,Yes,Yes,No,No,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,No,Caucasian,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Normal,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,Yes,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Normal,Yes,,No,Daytime Sleepiness,No,Increased,No,Yes,No,No,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,,Yes,No,No,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,,>=70,Yes,No,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,,Yes,Yes,55-69,No,No,No,Caucasian,Yes,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,Yes,Yes,Yes,>=70,No,No,Yes,African,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,,No,No,Yes,No,No,Yes,No,No,Increased,No,,No,Daytime Sleepiness,No,Normal,No,No,No,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,No,African,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,African,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,,Obese
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,No,Caucasian,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,No,Yes,Yes,EX,Yes,No,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,,55-69,Yes,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,Yes,Yes,No,Normal,No,Normal,Yes,,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,Increased,No,No,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,No,Yes,Yes,EX,Yes,No,Yes,40-54,No,Yes,Yes,African,No,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,Yes,No,No,No,No,Normal
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,<40,No,Yes,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,Yes,No,No,No,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,Yes,No,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,No,No,Yes,EX,Yes,No,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+No,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,,Yes,No,Yes,No,Yes,No,No,Yes,No,No,No,No,Increased,Yes,Yes,Yes,Normal,No,Increased,Yes,No,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,,No,Yes,No,Yes,No,No,,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,Yes,Yes,No,No,Normal
+Yes,Male,No,Yes,Yes,EX,No,No,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,No,Yes,Yes,EX,Yes,No,Yes,55-69,No,No,Yes,,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,No,Yes,No,Normal
+No,Female,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,No,Normal,No,Yes,No,Normal,Yes,Normal,No,No,Yes,No,No,Normal
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,Yes,Yes,African,Yes,Yes,Yes,,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,No,No,No,Normal
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,,No,Yes,Obese
+Yes,Male,Yes,No,Yes,,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,Yes,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,No,,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,No,Yes,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Normal,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,<40,No,No,Yes,Caucasian,No,No,Yes,No,No,No,Yes,,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,No,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,Yes,Normal
+Yes,Male,No,Yes,Yes,EX,No,No,Yes,>=70,Yes,No,No,African,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Normal,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,No,No,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,No,Yes,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,,Yes,Yes,No,No,Yes,Yes,Yes,No,No,Yes,,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,Yes,,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,No,EX,Yes,Yes,Yes,40-54,Yes,Yes,Yes,,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,,EX,Yes,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,No,Yes,No,Normal
+No,Male,Yes,No,No,Yes,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,No,Yes,No,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,No,No,Yes,Yes,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,Yes,Obese
+No,Female,Yes,Yes,No,Yes,Yes,Yes,No,<40,No,No,Yes,Caucasian,No,No,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Normal,No,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+No,Female,Yes,Yes,No,No,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Normal
+No,Female,Yes,No,Yes,No,,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,No,No,Yes,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,No,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,Yes,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,Yes,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,No,Increased,No,No,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,No,No,Obese
+No,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Normal,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,No,Yes,No,Normal
+Yes,Male,Yes,No,,EX,,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+No,Female,Yes,Yes,No,No,No,Yes,No,<40,No,No,Yes,Caucasian,No,Yes,,No,Yes,No,Yes,Yes,No,Yes,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,No,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Normal
+No,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Normal,No,Yes,No,Daytime Sleepiness,Yes,Normal,Yes,No,Yes,No,,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,No,Caucasian,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Normal,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,No,No,Yes,Yes,Yes,>=70,No,No,Yes,African,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,No,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Normal,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,No,No,No,Yes,Normal
+Yes,Male,No,No,Yes,EX,No,No,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,No,Caucasian,,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,Yes,Yes,Yes,,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,No,Yes,Yes,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,Yes,Yes,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,Yes,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,No,No,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,No,No,No,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,Yes,No,Yes,No,,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,No,No,Yes,Obese
+No,Male,Yes,No,Yes,EX,Yes,,Yes,<40,No,Yes,Yes,African,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,No,No,No,Normal
+No,Female,Yes,Yes,Yes,Yes,No,Yes,Yes,40-54,Yes,No,Yes,African,No,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,No,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,Yes,Normal,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,No,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,No,Yes,Yes,Yes,Yes,No,Yes,40-54,No,Yes,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+No,Male,No,Yes,Yes,EX,Yes,No,Yes,55-69,Yes,Yes,No,African,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+No,Male,Yes,No,No,No,Yes,No,Yes,40-54,No,No,Yes,African,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,No,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,No,No,,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Increased,Yes,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,Yes,Normal
+Yes,Male,No,Yes,Yes,Yes,Yes,No,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,Yes,No,No,No,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,No,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Normal,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,,No,Yes,Yes,No,Yes,Obese
+No,Female,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,Yes,No,Yes,No,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,Yes,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,,No,Increased,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,No,No,Yes,No,Yes,No,<40,No,No,Yes,Caucasian,No,Yes,No,No,Yes,No,No,No,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,EX,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Normal,Yes,Yes,Yes,Daytime Sleepiness,No,Normal,Yes,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+No,Male,Yes,No,No,EX,No,Yes,Yes,55-69,Yes,Yes,No,African,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,No,No,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,,Yes,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Normal
+Yes,Female,,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,,Yes,No,Yes,,Yes,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,Yes,Yes,No,Yes,Obese
+No,Female,Yes,Yes,No,EX,No,Yes,Yes,55-69,Yes,Yes,No,African,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+No,Male,Yes,No,Yes,Yes,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,No,Yes,No,No,Obese
+No,Female,Yes,No,No,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,No,Yes,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Normal,Yes,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,No,Yes,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,,No,Yes,Normal,No,Yes,Yes,,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Normal,No,Yes,No,Normal,Yes,Normal,,No,No,No,No,Normal
+No,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,,No,Yes,African,No,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,No,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,No,Yes,Yes,EX,Yes,No,Yes,<40,No,Yes,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,No,Yes,No,Yes,Obese
+No,Male,No,No,Yes,Yes,Yes,No,Yes,40-54,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Normal,Yes,Normal,Yes,Yes,Yes,Yes,No,Normal
+Yes,Male,No,No,Yes,Yes,Yes,No,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Increased,No,Yes,No,,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+No,Male,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,No,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Increased,,Yes,Yes,Daytime Sleepiness,No,Increased,,Yes,No,No,No,Normal
+No,Male,Yes,No,Yes,,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Normal
+No,Female,Yes,No,No,No,No,Yes,No,<40,No,No,No,African,No,Yes,No,No,Yes,No,No,No,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Increased,Yes,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,No,55-69,No,No,Yes,Caucasian,Yes,No,No,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,,Yes,No,Yes,EX,No,Yes,Yes,55-69,Yes,,No,Caucasian,Yes,Yes,Yes,No,,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,No,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,EX,No,Yes,,40-54,Yes,No,No,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Normal,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,Yes,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,No,Yes,Yes,Caucasian,Yes,Yes,Yes,,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+No,Female,Yes,Yes,No,Yes,Yes,No,Yes,<40,Yes,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,Yes,Increased,Yes,No,No,Yes,No,Obese
+No,Female,Yes,No,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,,No,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,Yes,No,Normal
+No,,Yes,Yes,Yes,Yes,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,,Yes,Yes,Yes,Caucasian,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,Yes,Yes,Yes,African,No,No,Yes,No,No,No,Yes,No,No,No,No,No,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,,Yes,No,No,No,Yes,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Normal,,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,<40,No,No,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,Yes,Obese
+Yes,Male,No,No,Yes,No,No,No,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,No,40-54,No,Yes,No,Caucasian,Yes,No,Yes,No,Yes,No,No,,No,Yes,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,No,
+No,Female,Yes,No,Yes,Yes,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,No,Normal,No,Yes,No,Normal,No,Normal,No,Yes,Yes,No,Yes,Normal
+No,Female,Yes,Yes,No,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,Yes,Yes,,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,No,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,,No,No,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,Yes,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,,Yes,No,Yes,No,No,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,No,Normal,,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,Yes,No,Yes,Yes,40-54,Yes,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,Yes,No,No,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Yes,No,Increased,No,Yes,Yes,Normal,No,Increased,,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,Yes,No,Yes,African,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,No,,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,No,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,
+No,Female,Yes,No,No,EX,No,Yes,Yes,55-69,No,Yes,No,African,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,No,Caucasian,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Increased,No,No,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,EX,No,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Normal,No,Normal,Yes,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,Yes,No,No,No,No,Obese
+No,Female,Yes,No,Yes,,No,Yes,Yes,55-69,Yes,Yes,Yes,African,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,Yes,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,No,No,Yes,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+Yes,Male,No,No,Yes,No,Yes,No,Yes,40-54,Yes,No,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,No,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,No,Yes,No,Normal
+No,Female,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,Yes,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Increased,No,,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,Yes,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,Yes,Yes,Yes,Normal,No,Increased,No,Yes,No,No,Yes,Normal
+No,Female,Yes,No,No,No,No,Yes,No,<40,No,No,Yes,African,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,No,Yes,Yes,Yes,Yes,No,Yes,40-54,No,Yes,Yes,Caucasian,No,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,<40,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Obese
+No,Male,Yes,No,No,EX,Yes,Yes,Yes,55-69,Yes,Yes,Yes,African,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Normal,No,No,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,No,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,Yes,No,No,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,Yes,Yes,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,Yes,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,No,No,Yes,Yes,,Yes,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,Yes,Obese
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,Yes,Yes,Yes,African,Yes,Yes,Yes,No,No,No,Yes,No,Yes,,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,No,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,<40,No,Yes,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,Normal,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,Yes,Obese
+No,Female,Yes,Yes,No,No,No,Yes,Yes,<40,No,No,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,No,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,No,No,No,Normal
+No,Male,Yes,No,Yes,Yes,No,Yes,Yes,<40,Yes,No,Yes,African,,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,No,No,No,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,No,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,Yes,Yes,No,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Female,Yes,No,Yes,No,Yes,Yes,Yes,,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,Yes,Yes,African,Yes,No,Yes,No,Yes,No,No,No,No,No,No,No,Increased,No,Yes,No,Normal,No,,No,Yes,Yes,No,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,,No,Yes,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Normal,No,Yes,,Normal,No,Normal,No,Yes,,No,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,Yes,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,No,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Increased,Yes,Yes,Yes,Normal,No,Increased,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,Yes,Yes,No,Normal,No,Normal,No,No,Yes,No,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,No,Yes,No,No,Obese
+No,Female,Yes,Yes,No,Yes,Yes,Yes,No,40-54,Yes,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Increased,Yes,Yes,No,Normal,Yes,Increased,No,No,Yes,Yes,No,Normal
+No,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,Yes,Yes,No,No,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Normal,Yes,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Normal,No,Normal,Yes,No,Yes,No,Yes,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,<40,No,No,Yes,African,No,No,No,Yes,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,No,No,No,Obese
+No,Female,Yes,Yes,No,EX,No,Yes,No,55-69,Yes,Yes,Yes,African,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Normal,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,Yes,No,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,No,No,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,No,No,Yes,Obese
+No,Male,No,No,Yes,EX,Yes,No,Yes,55-69,Yes,Yes,Yes,African,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Normal,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Obese
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,African,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,,Increased,No,Yes,No,No,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,No,EX,Yes,Yes,No,40-54,No,Yes,Yes,African,Yes,No,Yes,,No,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,<40,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,No,Yes,Yes,No,Yes,No,Yes,40-54,No,Yes,,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,Yes,Normal
+No,Female,Yes,No,No,No,No,Yes,Yes,55-69,No,No,No,African,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,Yes,40-54,No,Yes,No,African,No,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Normal
+,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,No,Yes,Yes,Yes,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,Yes,No,Yes,Yes,40-54,Yes,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,No,No,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Increased,No,Yes,No,Yes,No,Normal
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,,Yes,Increased,No,No,No,No,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,,No,Yes,No,No,No,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,No,Yes,Yes,No,No,No,Yes,55-69,Yes,No,Yes,Caucasian,No,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,No,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,Yes,Yes,Yes,Normal,No,Increased,No,No,No,No,No,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Female,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,,No,Obese
+Yes,Female,Yes,Yes,Yes,EX,,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,No,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Increased,Yes,Yes,Yes,Normal,No,Normal,Yes,Yes,Yes,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,Yes,40-54,No,No,No,African,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,,Increased,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,No,Yes,No,No,Yes,Yes,>=70,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Normal,No,Normal,No,No,No,No,Yes,Normal
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,Yes,Yes,Obese
+No,Female,Yes,Yes,No,EX,No,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,No,Normal,Yes,Normal,No,No,No,Yes,No,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,Yes,No,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,Yes,Yes,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,Yes,No,Yes,Caucasian,No,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,Yes,No,Yes,No,Normal
+No,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,40-54,No,Yes,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,,No,Yes,Yes,No,Yes,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,40-54,Yes,No,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,No,Yes,Yes,No,Yes,No,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Obese
+No,Male,Yes,No,Yes,No,Yes,Yes,Yes,<40,No,No,Yes,African,No,No,No,No,Yes,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,No,Normal
+No,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,No,Normal
+No,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,No,No,No,No,Yes,
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,Yes,,,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Normal,,No,Yes,No,No,Obese
+No,Female,Yes,Yes,Yes,No,No,Yes,Yes,55-69,No,No,Yes,African,Yes,No,No,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,Yes,Normal
+Yes,Male,Yes,Yes,Yes,EX,No,,Yes,55-69,No,No,Yes,Caucasian,Yes,No,Yes,No,No,Yes,No,No,Yes,No,Yes,No,Increased,No,No,Yes,Normal,No,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,Yes,Yes,No,Normal
+No,Male,Yes,Yes,No,EX,No,Yes,Yes,<40,No,Yes,Yes,African,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Normal,No,Yes,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,No,Yes,No,Caucasian,No,No,Yes,No,Yes,No,No,Yes,Yes,No,No,No,Increased,Yes,Yes,Yes,Normal,Yes,Normal,Yes,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Increased,Yes,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Increased,No,Yes,No,Normal,Yes,,No,Yes,No,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,EX,Yes,Yes,Yes,>=70,Yes,No,No,Caucasian,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,Yes,Yes,Obese
+Yes,Male,Yes,Yes,Yes,EX,Yes,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,Yes,Yes,No,Yes,Normal
+No,Male,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,Yes,No,Yes,No,Yes,No,No,No,No,No,Increased,No,Yes,Yes,Normal,Yes,Increased,Yes,Yes,Yes,Yes,No,Normal
+No,Female,Yes,Yes,No,Yes,Yes,,No,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,No,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,No,No,Yes,Normal
+No,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,No,Yes,African,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,No,Increased,No,No,Yes,No,Yes,Normal
+Yes,Female,Yes,Yes,Yes,No,No,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,No,No,No,Normal
+No,Male,Yes,Yes,No,No,Yes,Yes,No,40-54,No,No,Yes,African,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,No,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Increased,Yes,Yes,Yes,Normal,Yes,Increased,No,Yes,Yes,Yes,No,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,,Yes,40-54,Yes,Yes,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,40-54,No,Yes,No,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Increased,Yes,Yes,No,Daytime Sleepiness,Yes,Normal,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,EX,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,No,,Yes,No,No,Yes,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,Yes,Normal,No,No,No,Yes,No,Obese
+No,Female,Yes,Yes,No,No,No,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,,Yes,Increased,No,Yes,Yes,Normal,No,Increased,No,Yes,Yes,Yes,No,Normal
+Yes,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,40-54,No,Yes,Yes,Caucasian,Yes,No,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,Increased,No,Yes,No,Daytime Sleepiness,No,Increased,No,No,Yes,Yes,No,Normal
+Yes,Male,Yes,Yes,Yes,No,No,Yes,Yes,55-69,Yes,No,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Increased,No,No,Yes,Yes,No,Obese
+Yes,Male,Yes,Yes,Yes,No,Yes,Yes,Yes,>=70,No,Yes,Yes,African,Yes,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,Yes,,No,Yes,No,Normal,No,Increased,No,Yes,Yes,No,Yes,Obese
+No,Male,Yes,Yes,Yes,EX,No,Yes,Yes,55-69,No,Yes,Yes,African,Yes,Yes,,No,Yes,No,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Normal,Yes,Normal,No,No,No,Yes,,Obese
+Yes,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Increased,No,Yes,No,Normal,Yes,Increased,No,Yes,No,Yes,No,Normal
+Yes,Male,Yes,No,Yes,No,Yes,Yes,Yes,55-69,Yes,Yes,Yes,Caucasian,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Increased,No,Yes,Yes,Yes,Yes,Obese
+No,Male,Yes,No,No,No,Yes,Yes,Yes,40-54,No,No,Yes,African,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Normal,No,Yes,No,Daytime Sleepiness,No,Normal,No,Yes,No,No,No,Obese
+No,Female,Yes,No,Yes,No,No,Yes,Yes,40-54,No,No,Yes,Caucasian,Yes,No,Yes,No,No,No,Yes,No,No,No,No,Yes,Increased,No,Yes,No,Normal,No,Normal,No,No,Yes,No,Yes,Normal
+Yes,Male,Yes,No,Yes,No,No,Yes,Yes,55-69,No,Yes,Yes,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,Increased,No,Yes,Yes,Daytime Sleepiness,Yes,Normal,No,Yes,Yes,Yes,No,Obese

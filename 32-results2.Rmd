@@ -1,0 +1,81 @@
+
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
+
+source("_dados.R")
+```
+
+## Univariate analysis {#results2}
+Table \@ref(tab:ors) Odds Ratios and p-values for each dichotomic variable in a univariate analysis.
+```{r ors}
+options(scipen=999)
+
+vars2<-names(dados[,-c(1, 6, 10, 29, 40)])
+
+p<-NA
+varcat<-NA
+ors<-NA
+ciInf<-NA
+ciSup<-NA
+for(i in 1:length(vars2)){
+  mod<-glm(as.formula(paste("osa ~ ", vars2[i])), 
+           data = dados, family = binomial(link="logit"))
+  p[i]<-round(summary(mod)$coefficients[2,4], 3)
+  varcat[i]<-rownames(summary(mod)$coefficients)[2]
+  ors[i]<-round(exp(coef(mod)[2]),2)
+  ciInf[i]<-round(exp(confint(mod)[2,1]), 2)
+  ciSup[i]<-round(exp(confint(mod)[2,2]), 2)
+}
+
+vars2Results<-tibble(variavel = vars2, categoria = varcat, 
+                         OR = ors, `2.5 %` = ciInf, `97.5 %` = ciSup,
+                         pval = p)
+
+
+# brks <- quantile(seq(0,1,0.1), na.rm = TRUE)
+# clrs <- round(seq(255, 40, length.out = length(brks) + 1), 0) %>%
+#   {paste0("rgb(255,", ., ",", ., ")")}
+
+vars2Results %>% mutate(pval = cell_spec(pval, "html", 
+                                         color = ifelse(pval > 0.2, 
+                                                        "red", "blue")),
+                        OR = cell_spec(OR, "html", 
+                                         color = ifelse(OR <= 0.1 | OR > 100, 
+                                                        "red", "blue"))
+                        ) %>% arrange(variavel) %>% 
+  kable(format = "html", escape = F, caption = "Univariate analysis for dicotomic variables") %>%
+  kable_styling("striped", full_width = F)
+
+
+```
+
+Now for smoking:
+```{r}
+modS<-glm(osa ~ Smoking, data = dados, family = binomial(link="logit"))
+
+# round(summary(modS)$coefficients, 2) %>% 
+round(
+  cbind(
+    exp(cbind(OR = coef(modS), confint(modS))),
+    pval = summary(modS)$coefficients[,4]),2) %>% 
+  kable(caption = "Logistic Regression results for Smoking")
+
+
+```
+
+And for Age category:
+```{r}
+modA<-glm(osa ~ Age.Cat, data = dados, family = binomial(link="logit"))
+
+round(
+  cbind(
+    exp(cbind(OR = coef(modA), confint(modA))),
+    pval = summary(modA)$coefficients[,4]),2) %>% 
+  kable(caption = "Logistic Regression results for Age Category")
+```
+
+
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

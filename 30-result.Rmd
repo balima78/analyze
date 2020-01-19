@@ -1,0 +1,27 @@
+# Results {#result}
+
+```{r setupR, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
+
+source("_dados.R")
+```
+
+In this study we analysed a total of `r dim(dados)[1]` subjects, from those `r with(dados, table(Gender))[2]` (`r round(with(dados, table(Gender))[2]/dim(dados)[1] * 100,2)`%) are male, and `r with(dados,table(OSA))[2]` (`r round(with(dados,table(OSA))[2] / dim(dados)[1] * 100, 2)`%) have OSA.
+
+When we analysed missing data (Figure \@ref(fig:missis1)) we do not found any variable with an excessive number of missing values. 
+
+```{r missis1, fig.cap='Missing values for each variable 1/2', fig.align='center'}
+theme_set(theme_classic())
+
+missmap(dados[,1:20]) 
+
+```
+
+```{r missis2, fig.cap='Missing values for each variable 2/2', fig.align='center'}
+theme_set(theme_classic())
+
+missmap(dados[,21:40]) 
+```
+
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

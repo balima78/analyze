@@ -1,0 +1,10 @@
+# Discussion {#discus}
+
+Ideally, the proportion of events (with) and non-events (without) in the Y variable (OSA) should approximately be the same. In this analysis we have 2/3 of patients with OSA and only 1/3 without OSA. So we could sample the observations in approximately equal proportions to get better models as a sensitivity analysis, but we didn't do it.
+
+In this case we use p-values to select the variables to use in our model but if we had used a very large dataset we could instead find the information value of variables to get an idea of how valuable they are in explaining the dependent variable (OSA).
+We couldn't replicate this traditional approach in the selection of variables to define a predictive mode when we work with “too large” datasets because we will have statistical significant results for all the variables in the univariate analysis.
+
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">
+

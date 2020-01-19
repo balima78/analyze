@@ -1,0 +1,11 @@
+# Introduction {#intro}
+
+Obstructive sleep apnea (OSA) is a potentially serious sleep disorder. This is a common disorder characterized by repetitive episodes of nocturnal breathing cessation due to upper airway collaps. The obstructive events (apnoeas or hypopnoeas) cause a progressive asphyxia that increasingly stimulates breathing efforts against the collapsed airway. 
+
+The aetiology of OSA is multifactorial, consisting of a complex interplay between anatomic, neuromuscular factors and an underlying genetic predisposition toward the disease. Risk factors include: snoring, male gender, middle age, menopause in women, obesity, narrowed airway, hypertension, chronic nasal congestion, smoking, diabetes, family history of sleep apnea, asthma, large neck circumference, enlarged tonsils/adenoids and low-lying soft palate.
+
+Complications from recurrent OSA may include: daytime fatigue and sleepiness, cardiovascular problems, complications with medications and surgery, eye problems, or sleep-deprived partners. Also, people with obstructive sleep apnea may also complain of memory problems, morning headaches, mood swings or feelings of depression, and a need to urinate frequently at night (nocturia).
+
+In this exercise the primary objective is to identify predictive factors for sleep apnea in OSA patients using multivariable logistic regression models. We aim to identify risk factors for OSA.
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

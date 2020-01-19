@@ -1,0 +1,102 @@
+
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
+
+source("_dados.R")
+```
+
+## New Model {#results4}
+From the previous model we decied to discard also PHT,  Hypertension and Nocturia. 
+```{r}
+
+new.model<-glm(formula = osa ~ Age.Cat + Conc.decrease + 
+                 Gender + Genetics + CFA + VehicleCrashes + 
+                 Humor + GE.Reflux + Diabetes + Driver + 
+                 Hypothyroidism + Stroke + ESS.Cat + 
+                 Wit.Apneas , 
+               family = "binomial",
+               data = osa.Selected)
+
+tidy(new.model) %>% mutate(OR = round(exp(estimate),2)) %>% 
+  kable(caption = "New Logistic regression model")%>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+### New model's formula
+```{r}
+formula(new.model) %>% pander()
+```
+
+### Summary statistics
+```{r}
+glance(new.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Hosmer-Lemeshow Test
+```{r}
+phl.new<-hoslem.test(osa.Selected$osa, fitted(new.model), g=10)$p.value
+```
+For the Goodness of fit test we obtained a p-value = `r round(phl.new,3)`. For a 5% significance level with do not reject the null hypothesis of Good fit.
+
+### Pseudo R^2
+```{r}
+pR2(new.model) %>% kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+### Accuracy
+```{r}
+pred.new = predict(new.model, newdata=osa.Selected,type='response')
+
+acc.new <- table(ifelse(pred.new<0.5, 0, 1), osa.Selected[,"osa"])
+
+optCutOff<-optimalCutoff(osa.Selected$osa, pred.new)
+
+mce<-misClassError(osa.Selected$osa, pred.new, threshold = optCutOff)
+
+```
+
+For a cut-off of 0.5, we have the confusion matrix (lines are predicted, columns are actuals):
+```{r}
+acc.new %>% kable() %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+```
+
+
+Accuracy for a cut-off of 0.5: **`r round(sum(diag(acc.new))/sum(acc.new), 2)`**
+
+When we tried to find an Optimal cut-off, we aobtained: **`r round(optCutOff,2)`**
+
+For this optimal cut-off we have a misclassification error of: **`r round(mce,2)`**, i.e, accuracy = **`r round(1-mce,2)`**
+
+### ROC
+Receiver Operating Characteristics Curve traces the percentage of true positives accurately predicted by our logit model as the prediction probability cutoff is lowered from 1 to 0.
+```{r}
+plotROC(osa.Selected$osa, pred.new)
+```
+
+
+### VIF
+```{r}
+vif(new.model) %>% kable(caption = "Variance Inflation Factors (VIF) to check for multicollinearity in the new model") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+All the variables in the model have VIF well below 4.
+
+
+### leave one out
+```{r}
+
+```
+
+Comparison between new and stepwise models:
+```{r}
+#anova(step.both, new.model, test = "Chisq")
+```
+
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

@@ -1,0 +1,38 @@
+
+
+
+```{r , include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
+
+source("_dados.R")
+```
+
+## Descriptive analysis {#results1}
+We begin designing contingency tables for each variable with **OSA** (Table \@ref(tab:tabs)). In these tables 'Yes' stand for the number of patients with OSA, 'yes.%' stands for percentage of patients with OSA by column, 'No' stands for number of patients without OSA, and 'no.%' stands for the percentage of patients without OSA by column.
+
+```{r tabs, tidy=FALSE, results = "asis"}
+# variaveis predictoras
+vars<-names(dados)[-c(1,40)]
+vars<-sort(vars)
+## tabelar as variaveis com OSA
+
+## tabela simples 2x2
+#cts<-lapply(vars, function(x) xtabs(as.formula(paste("~ OSA +", x )), data = dados))
+
+#tabelas com valores esperados e percentagens
+cts<-map(vars, function(x) tabela(dados,x))
+## equivalente a:
+#cts<-vars %>% map(~tabela(dados, .x))
+
+for (i in 1:length(cts)){
+  print(kable(cts[[i]], booktabs = T, caption = vars[i]))
+    cat("\n")
+}
+
+```
+
+As we can see variables Daytime.Sleepiness and Snore have some 'strange values'.
+
+
+
+<img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.3 First Model | Basics of Health Intelligent Data Analysis</title>
+  <meta name="description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.3 First Model | Basics of Health Intelligent Data Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.3 First Model | Basics of Health Intelligent Data Analysis" />
+  
+  <meta name="twitter:description" content="This is a work on ANALYZE using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Bruno Lima, Cátia Redondo" />
+
+
+<meta name="date" content="2020-01-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="results2.html"/>
+<link rel="next" href="results4.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">ANALYZE on HEADS</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="method.html"><a href="method.html"><i class="fa fa-check"></i><b>2</b> Methods</a></li>
+<li class="chapter" data-level="3" data-path="result.html"><a href="result.html"><i class="fa fa-check"></i><b>3</b> Results</a><ul>
+<li class="chapter" data-level="3.1" data-path="results1.html"><a href="results1.html"><i class="fa fa-check"></i><b>3.1</b> Descriptive analysis</a></li>
+<li class="chapter" data-level="3.2" data-path="results2.html"><a href="results2.html"><i class="fa fa-check"></i><b>3.2</b> Univariate analysis</a></li>
+<li class="chapter" data-level="3.3" data-path="results3.html"><a href="results3.html"><i class="fa fa-check"></i><b>3.3</b> First Model</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="results3.html"><a href="results3.html#stepwise-both"><i class="fa fa-check"></i><b>3.3.1</b> stepwise “both”</a></li>
+<li class="chapter" data-level="3.3.2" data-path="results3.html"><a href="results3.html#models-formula"><i class="fa fa-check"></i><b>3.3.2</b> Model’s formula</a></li>
+<li class="chapter" data-level="3.3.3" data-path="results3.html"><a href="results3.html#summary-statistics"><i class="fa fa-check"></i><b>3.3.3</b> summary statistics</a></li>
+<li class="chapter" data-level="3.3.4" data-path="results3.html"><a href="results3.html#hosmer-lemeshow-test"><i class="fa fa-check"></i><b>3.3.4</b> Hosmer-Lemeshow Test</a></li>
+<li class="chapter" data-level="3.3.5" data-path="results3.html"><a href="results3.html#pseudo-r2"><i class="fa fa-check"></i><b>3.3.5</b> Pseudo R^2</a></li>
+<li class="chapter" data-level="3.3.6" data-path="results3.html"><a href="results3.html#accuracy"><i class="fa fa-check"></i><b>3.3.6</b> Accuracy</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="results4.html"><a href="results4.html"><i class="fa fa-check"></i><b>3.4</b> New Model</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="results4.html"><a href="results4.html#new-models-formula"><i class="fa fa-check"></i><b>3.4.1</b> New model’s formula</a></li>
+<li class="chapter" data-level="3.4.2" data-path="results4.html"><a href="results4.html#summary-statistics-1"><i class="fa fa-check"></i><b>3.4.2</b> Summary statistics</a></li>
+<li class="chapter" data-level="3.4.3" data-path="results4.html"><a href="results4.html#hosmer-lemeshow-test-1"><i class="fa fa-check"></i><b>3.4.3</b> Hosmer-Lemeshow Test</a></li>
+<li class="chapter" data-level="3.4.4" data-path="results4.html"><a href="results4.html#pseudo-r2-1"><i class="fa fa-check"></i><b>3.4.4</b> Pseudo R^2</a></li>
+<li class="chapter" data-level="3.4.5" data-path="results4.html"><a href="results4.html#accuracy-1"><i class="fa fa-check"></i><b>3.4.5</b> Accuracy</a></li>
+<li class="chapter" data-level="3.4.6" data-path="results4.html"><a href="results4.html#roc"><i class="fa fa-check"></i><b>3.4.6</b> ROC</a></li>
+<li class="chapter" data-level="3.4.7" data-path="results4.html"><a href="results4.html#vif"><i class="fa fa-check"></i><b>3.4.7</b> VIF</a></li>
+<li class="chapter" data-level="3.4.8" data-path="results4.html"><a href="results4.html#leave-one-out"><i class="fa fa-check"></i><b>3.4.8</b> leave one out</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discus.html"><a href="discus.html"><i class="fa fa-check"></i><b>4</b> Discussion</a></li>
+<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Basics of Health Intelligent Data Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="results3" class="section level2">
+<h2><span class="header-section-number">3.3</span> First Model</h2>
+<p>From the univariate analysis we pick those with p &lt; 0.2 and excluded: Race, Decreased.Libido, Snore, Daytime.Sleepiness; once these have exagerated OR values.</p>
+<p>Remaining variables are: <em>AF</em>, <em>Age.Cat</em>, <em>Alcohol</em>, <em>CFA</em>, <em>CHF</em>, <em>Conc.decrease</em>, <em>Diabetes</em>, <em>Driver</em>, <em>Dyslipidemia</em>, <em>ESS.Cat</em>, <em>GE.Reflux</em>, <em>Gender</em>, <em>Genetics</em>, <em>Humor</em>, <em>Hypertension</em>, <em>Hypothyroidism</em>, <em>MI</em>, <em>NC.Cat</em>, <em>Nocturia</em>, <em>PHT</em>, <em>Renal.Failure</em>, <em>Stroke</em>, <em>VehicleCrashes</em> and <em>Wit.Apneas</em></p>
+<p>For logistic regression models we use a new data set only with complete cases: 411 lines and 25 colunms.</p>
+<div id="stepwise-both" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> stepwise “both”</h3>
+<table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:both">Table 3.5: </span>Logistic regression model with stepwise both variable selection
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+term
+</th>
+<th style="text-align:right;">
+estimate
+</th>
+<th style="text-align:right;">
+std.error
+</th>
+<th style="text-align:right;">
+statistic
+</th>
+<th style="text-align:right;">
+p.value
+</th>
+<th style="text-align:right;">
+OR
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+(Intercept)
+</td>
+<td style="text-align:right;">
+-5.7300128
+</td>
+<td style="text-align:right;">
+1.8256601
+</td>
+<td style="text-align:right;">
+-3.1385978
+</td>
+<td style="text-align:right;">
+0.0016976
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat40-54
+</td>
+<td style="text-align:right;">
+-0.4088139
+</td>
+<td style="text-align:right;">
+1.1704356
+</td>
+<td style="text-align:right;">
+-0.3492835
+</td>
+<td style="text-align:right;">
+0.7268765
+</td>
+<td style="text-align:right;">
+0.66
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat55-69
+</td>
+<td style="text-align:right;">
+2.7631067
+</td>
+<td style="text-align:right;">
+1.2828743
+</td>
+<td style="text-align:right;">
+2.1538406
+</td>
+<td style="text-align:right;">
+0.0312527
+</td>
+<td style="text-align:right;">
+15.85
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Age.Cat&gt;=70
+</td>
+<td style="text-align:right;">
+3.3654802
+</td>
+<td style="text-align:right;">
+1.4976864
+</td>
+<td style="text-align:right;">
+2.2471194
+</td>
+<td style="text-align:right;">
+0.0246324
+</td>
+<td style="text-align:right;">
+28.95
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PHTYes
+</td>
+<td style="text-align:right;">
+6.1153181
+</td>
+<td style="text-align:right;">
+1.2727670
+</td>
+<td style="text-align:right;">
+4.8047430
+</td>
+<td style="text-align:right;">
+0.0000015
+</td>
+<td style="text-align:right;">
+452.74
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Conc.decreaseYes
+</td>
+<td style="text-align:right;">
+-6.2065527
+</td>
+<td style="text-align:right;">
+1.3243672
+</td>
+<td style="text-align:right;">
+-4.6864287
+</td>
+<td style="text-align:right;">
+0.0000028
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GenderMale
+</td>
+<td style="text-align:right;">
+2.2128337
+</td>
+<td style="text-align:right;">
+0.4891403
+</td>
+<td style="text-align:right;">
+4.5239243
+</td>
+<td style="text-align:right;">
+0.0000061
+</td>
+<td style="text-align:right;">
+9.14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GeneticsYes
+</td>
+<td style="text-align:right;">
+-1.8227179
+</td>
+<td style="text-align:right;">
+0.5500087
+</td>
+<td style="text-align:right;">
+-3.3139801
+</td>
+<td style="text-align:right;">
+0.0009198
+</td>
+<td style="text-align:right;">
+0.16
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CFAYes
+</td>
+<td style="text-align:right;">
+1.8836917
+</td>
+<td style="text-align:right;">
+0.7608318
+</td>
+<td style="text-align:right;">
+2.4758320
+</td>
+<td style="text-align:right;">
+0.0132926
+</td>
+<td style="text-align:right;">
+6.58
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+VehicleCrashesYes
+</td>
+<td style="text-align:right;">
+-4.4140507
+</td>
+<td style="text-align:right;">
+1.4077408
+</td>
+<td style="text-align:right;">
+-3.1355563
+</td>
+<td style="text-align:right;">
+0.0017153
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+HumorYes
+</td>
+<td style="text-align:right;">
+2.3005433
+</td>
+<td style="text-align:right;">
+1.1882194
+</td>
+<td style="text-align:right;">
+1.9361267
+</td>
+<td style="text-align:right;">
+0.0528522
+</td>
+<td style="text-align:right;">
+9.98
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GE.RefluxYes
+</td>
+<td style="text-align:right;">
+2.5020424
+</td>
+<td style="text-align:right;">
+0.7253160
+</td>
+<td style="text-align:right;">
+3.4495894
+</td>
+<td style="text-align:right;">
+0.0005614
+</td>
+<td style="text-align:right;">
+12.21
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DiabetesYes
+</td>
+<td style="text-align:right;">
+-3.4885604
+</td>
+<td style="text-align:right;">
+1.0355117
+</td>
+<td style="text-align:right;">
+-3.3689244
+</td>
+<td style="text-align:right;">
+0.0007546
+</td>
+<td style="text-align:right;">
+0.03
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DriverYes
+</td>
+<td style="text-align:right;">
+2.6384672
+</td>
+<td style="text-align:right;">
+1.3680117
+</td>
+<td style="text-align:right;">
+1.9286876
+</td>
+<td style="text-align:right;">
+0.0537697
+</td>
+<td style="text-align:right;">
+13.99
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+HypothyroidismYes
+</td>
+<td style="text-align:right;">
+1.2991148
+</td>
+<td style="text-align:right;">
+0.4856636
+</td>
+<td style="text-align:right;">
+2.6749271
+</td>
+<td style="text-align:right;">
+0.0074745
+</td>
+<td style="text-align:right;">
+3.67
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NC.CatIncreased
+</td>
+<td style="text-align:right;">
+1.2751952
+</td>
+<td style="text-align:right;">
+0.4714160
+</td>
+<td style="text-align:right;">
+2.7050318
+</td>
+<td style="text-align:right;">
+0.0068298
+</td>
+<td style="text-align:right;">
+3.58
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+StrokeYes
+</td>
+<td style="text-align:right;">
+2.0233819
+</td>
+<td style="text-align:right;">
+0.7946120
+</td>
+<td style="text-align:right;">
+2.5463771
+</td>
+<td style="text-align:right;">
+0.0108848
+</td>
+<td style="text-align:right;">
+7.56
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ESS.CatDaytime Sleepiness
+</td>
+<td style="text-align:right;">
+-1.2358901
+</td>
+<td style="text-align:right;">
+0.5223123
+</td>
+<td style="text-align:right;">
+-2.3661899
+</td>
+<td style="text-align:right;">
+0.0179722
+</td>
+<td style="text-align:right;">
+0.29
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NocturiaYes
+</td>
+<td style="text-align:right;">
+0.8235866
+</td>
+<td style="text-align:right;">
+0.4483850
+</td>
+<td style="text-align:right;">
+1.8367845
+</td>
+<td style="text-align:right;">
+0.0662417
+</td>
+<td style="text-align:right;">
+2.28
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wit.ApneasYes
+</td>
+<td style="text-align:right;">
+0.8657637
+</td>
+<td style="text-align:right;">
+0.5124875
+</td>
+<td style="text-align:right;">
+1.6893364
+</td>
+<td style="text-align:right;">
+0.0911550
+</td>
+<td style="text-align:right;">
+2.38
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+HypertensionYes
+</td>
+<td style="text-align:right;">
+0.9601884
+</td>
+<td style="text-align:right;">
+0.6607882
+</td>
+<td style="text-align:right;">
+1.4530956
+</td>
+<td style="text-align:right;">
+0.1461972
+</td>
+<td style="text-align:right;">
+2.61
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="models-formula" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Model’s formula</h3>
+<p>osa ~ Age.Cat + PHT + Conc.decrease + Gender + Genetics + CFA + VehicleCrashes + Humor + GE.Reflux + Diabetes + Driver + Hypothyroidism + NC.Cat + Stroke + ESS.Cat + Nocturia + Wit.Apneas + Hypertension</p>
+</div>
+<div id="summary-statistics" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> summary statistics</h3>
+<table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+null.deviance
+</th>
+<th style="text-align:right;">
+df.null
+</th>
+<th style="text-align:right;">
+logLik
+</th>
+<th style="text-align:right;">
+AIC
+</th>
+<th style="text-align:right;">
+BIC
+</th>
+<th style="text-align:right;">
+deviance
+</th>
+<th style="text-align:right;">
+df.residual
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+516.0077
+</td>
+<td style="text-align:right;">
+410
+</td>
+<td style="text-align:right;">
+-73.02216
+</td>
+<td style="text-align:right;">
+188.0443
+</td>
+<td style="text-align:right;">
+272.4348
+</td>
+<td style="text-align:right;">
+146.0443
+</td>
+<td style="text-align:right;">
+390
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="hosmer-lemeshow-test" class="section level3">
+<h3><span class="header-section-number">3.3.4</span> Hosmer-Lemeshow Test</h3>
+<p>For the Goodness of fit test we obtained a p-value = 0.227.</p>
+</div>
+<div id="pseudo-r2" class="section level3">
+<h3><span class="header-section-number">3.3.5</span> Pseudo R^2</h3>
+<table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+x
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+llh
+</td>
+<td style="text-align:right;">
+-73.0221586
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+llhNull
+</td>
+<td style="text-align:right;">
+-258.0038702
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+G2
+</td>
+<td style="text-align:right;">
+369.9634233
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+McFadden
+</td>
+<td style="text-align:right;">
+0.7169726
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+r2ML
+</td>
+<td style="text-align:right;">
+0.5934931
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+r2CU
+</td>
+<td style="text-align:right;">
+0.8299851
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="accuracy" class="section level3">
+<h3><span class="header-section-number">3.3.6</span> Accuracy</h3>
+<p>0.93</p>
+<p><img src="images/LogoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right"></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="results2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="results4.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["analyze.pdf", "analyze.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
