@@ -39,8 +39,6 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
-
 In this _book_, we will present our results for the work we made on the subject of **Basics of Health Intelligent Data Analysis** from the **HEADS** PhD programme. 
 
 An exhaustive explanation using the **bookdown** package [@R-bookdown] can be found at <a href="https://bookdown.org/yihui/bookdown/">bookdown: Authoring Books and Technical Documents with R Markdown</a> and this is only a sample book, which was built on top of R Markdown and **knitr**

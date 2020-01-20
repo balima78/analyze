@@ -7,13 +7,13 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
 source("_dados.R")
 ```
 
-Database used in this suty includes simulated data from 523 patients who were referred to sleep consultation for risk of obstructive sleep apnea. As two patients have no data for OSA, we considered on our analysis 521 patients. A total of 38 variables (table \@ref(tab:vars)) were recorded as potential predictors for OSA.
+Database used in this study includes simulated data from 523 patients who were referred to sleep consultation for risk of OSA. As two patients have no data for OSA, we considered on our analysis 521 patients. A total of 38 variables (table \@ref(tab:vars)) were recorded as potential predictors for OSA.
 
 Patient characteristics were described using contingency tables. Univariate tests comparing categorical variables were conducted using univariate logistic regression.
 
 Variables with p-values < 0.2 were selected for a stepwise logistic regression direction both that consists of iteratively adding and removing predictors. From this model we tried to define a new model with lower number of prediction variables.
 
-For measuring the performance of the predictive model we compute the it's accuracy value and ROC curve. We did not split our data in training and a test sets, so the performance of the model was assessed in the same data used for modelling. 
+For measuring the performance of the predictive model we compute it's accuracy value and ROC curve. We did not split our data in training and a test sets, so the performance of the model was assessed in the same data used for modelling. 
 
 At the final ('new model') we also estimated the model performance with Leave-one-out cross-validation.
 

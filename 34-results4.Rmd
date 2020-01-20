@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
 ```
 
 ## New Model {#results4}
-From the previous model we decied to discard also PHT,  Hypertension and Nocturia. 
+From the previous model we decided to discard also PHT,  Hypertension and Nocturia. 
 ```{r}
 
 new.model<-glm(formula = osa ~ Age.Cat + Conc.decrease + 
@@ -69,7 +69,7 @@ acc.new %>% kable() %>%
 
 Accuracy for a cut-off of 0.5: **`r round(sum(diag(acc.new))/sum(acc.new), 2)`**
 
-When we tried to find an Optimal cut-off, we aobtained: **`r round(optCutOff,2)`**
+When we tried to find an Optimal cut-off, we obtained: **`r round(optCutOff,2)`**
 
 For this optimal cut-off we have a misclassification error of: **`r round(mce,2)`**, i.e, accuracy = **`r round(1-mce,2)`**
 
@@ -94,9 +94,9 @@ loo<-cv.glm(osa.Selected,new.model)
 ```
 Each time, leave-one-out cross-validation leaves out one observation, produces a fit on all the other data, and then makes a prediction at the y value for that observation that you lift out.
 
-For the this model we obtained a cross-validated prediction error of **`r round(loo$delta[1],3)`**, i.e. an accuracy iqual to **`r round(1-loo$delta[1],3)`**.
+For the this model we obtained a cross-validated prediction error of **`r round(loo$delta[1],3)`**, i.e. an accuracy equal to **`r round(1-loo$delta[1],3)`**.
 
-The advantage of the leave-one-out cross-validation method is that we make use all data points reducing potential bias. However, the process is repeated as many times as there are data points, resulting to a higher execution time when n is extremely large.
+The advantage of the leave-one-out cross-validation method is that we make use of all data points reducing potential bias. However, the process is repeated as many times as there are data points, resulting to a higher execution time when *n* is extremely large.
 
 
 <img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">
