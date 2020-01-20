@@ -20,3 +20,8 @@ sort(varsUni)=
 sort(varsUniDT)
 
 table(dados$OSA, dados$Gender)
+
+summary(new.model)
+
+library(boot)
+loo<-cv.glm(osa.Selected,new.model)

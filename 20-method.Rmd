@@ -15,6 +15,8 @@ Variables with p-values < 0.2 were selected for a stepwise logistic regression d
 
 For measuring the performance of the predictive model we compute the it's accuracy value and ROC curve. We did not split our data in training and a test sets, so the performance of the model was assessed in the same data used for modelling. 
 
+At the final ('new model') we also estimated the model performance with Leave-one-out cross-validation.
+
 To assess multicollinearity of the variables in the model we computed the variance inflation factors (VIF). As a rule of thumb, a VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity.
 
 

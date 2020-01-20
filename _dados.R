@@ -15,6 +15,8 @@ library(pscl)
 library(car)
 library(InformationValue)
 
+library(boot)
+
 #library(caret)
 
 # preparar dados

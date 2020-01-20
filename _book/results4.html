@@ -24,7 +24,7 @@
 <meta name="author" content="Bruno Lima, Cátia Redondo" />
 
 
-<meta name="date" content="2020-01-19" />
+<meta name="date" content="2020-01-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -130,7 +130,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3.4.5" data-path="results4.html"><a href="results4.html#accuracy-1"><i class="fa fa-check"></i><b>3.4.5</b> Accuracy</a></li>
 <li class="chapter" data-level="3.4.6" data-path="results4.html"><a href="results4.html#roc"><i class="fa fa-check"></i><b>3.4.6</b> ROC</a></li>
 <li class="chapter" data-level="3.4.7" data-path="results4.html"><a href="results4.html#vif"><i class="fa fa-check"></i><b>3.4.7</b> VIF</a></li>
-<li class="chapter" data-level="3.4.8" data-path="results4.html"><a href="results4.html#leave-one-out"><i class="fa fa-check"></i><b>3.4.8</b> leave one out</a></li>
+<li class="chapter" data-level="3.4.8" data-path="results4.html"><a href="results4.html#leave-one-out-cross-validation"><i class="fa fa-check"></i><b>3.4.8</b> Leave one out Cross-validation</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="discus.html"><a href="discus.html"><i class="fa fa-check"></i><b>4</b> Discussion</a></li>
@@ -589,7 +589,7 @@ df.residual
 </div>
 <div id="hosmer-lemeshow-test-1" class="section level3">
 <h3><span class="header-section-number">3.4.3</span> Hosmer-Lemeshow Test</h3>
-<p>For the Goodness of fit test we obtained a p-value = 0.94. For a 5% significance level with do not reject the null hypothesis of Good fit.</p>
+<p>For the Goodness of fit test we obtained a p-value = 0.94. So, for a 5% significance level we do not reject the null hypothesis of Good fit.</p>
 </div>
 <div id="pseudo-r2-1" class="section level3">
 <h3><span class="header-section-number">3.4.4</span> Pseudo R^2</h3>
@@ -926,9 +926,11 @@ Wit.Apneas
 </table>
 <p>All the variables in the model have VIF well below 4.</p>
 </div>
-<div id="leave-one-out" class="section level3">
-<h3><span class="header-section-number">3.4.8</span> leave one out</h3>
-<p>Comparison between new and stepwise models:</p>
+<div id="leave-one-out-cross-validation" class="section level3">
+<h3><span class="header-section-number">3.4.8</span> Leave one out Cross-validation</h3>
+<p>Each time, leave-one-out cross-validation leaves out one observation, produces a fit on all the other data, and then makes a prediction at the y value for that observation that you lift out.</p>
+<p>For the this model we obtained a cross-validated prediction error of <strong>0.096</strong>, i.e. an accuracy iqual to <strong>0.904</strong>.</p>
+<p>The advantage of the leave-one-out cross-validation method is that we make use all data points reducing potential bias. However, the process is repeated as many times as there are data points, resulting to a higher execution time when n is extremely large.</p>
 <p><img src="images/LogoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right"></p>
 
 </div>
