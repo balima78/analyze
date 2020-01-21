@@ -24,7 +24,7 @@
 <meta name="author" content="Bruno Lima, Cátia Redondo" />
 
 
-<meta name="date" content="2020-01-20" />
+<meta name="date" content="2020-01-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -159,8 +159,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="discus" class="section level1">
 <h1><span class="header-section-number">4</span> Discussion</h1>
 <p>Our final logistic regression model has Age.Cat, Conc.decrease, Gender, Genetics, CFA, VehicleCrashes, Humor, GE.Reflux, Diabetes, Driver, Hypothyroidism, Stroke, ESS.Cat, Wit.Apneas as predictor variables.</p>
-<p>Ideally, the proportion of events (with) and non-events (without) in the Y variable (OSA) should approximately be the same. In this analysis we have 2/3 of patients with OSA and only 1/3 without OSA. So we could sample the observations in approximately equal proportions to get better models as a sensitivity analysis, but we didn’t do it.</p>
-<p>In this case we use p-values to select the variables to use in our model but if we had used a very large dataset we could instead find the information value of variables to get an idea of how valuable they are in explaining the dependent variable (OSA). We couldn’t replicate this traditional approach in the selection of variables to define a predictive mode when we work with “too large” datasets because we will have statistical significant results for all the variables in the univariate analysis.</p>
+<p>Although for our first model (table <a href="results3.html#tab:both">3.5</a>) we obtained and accuracy of <em>0.93</em>, we tried to define a new model (table <a href="results4.html#tab:new">3.6</a>) more simple (with less variables) even if we obtained a lower accuracy (<em>0.9</em>).</p>
+<p>Ideally, in a logistic regression model, the proportion of events (with) and non-events (without) in the Y variable (OSA) should approximately be the same. In this analysis we have 2/3 of patients with OSA and only 1/3 without OSA. So we could sample the observations in approximately equal proportions to get better models as a sensitivity analysis, but we didn’t do it.</p>
+<p>In this case we use p-values to select the variables to use in our model but if we had used a very large dataset we could instead find the information value of variables to get an idea of how valuable they are in explaining the dependent variable (OSA). We couldn’t replicate this traditional approach in the selection of variables to define a predictive logistic regression model if we worked with “too large” datasets because we would have statistical significant results for all the variables in the univariate analysis.</p>
 <p><img src="images/LogoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right"></p>
 
 </div>

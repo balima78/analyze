@@ -31,7 +31,7 @@ for (i in 1:length(cts)){
 
 ```
 
-As we can see variables Daytime.Sleepiness and Snore have some 'strange values'.
+As we can, see variables Daytime.Sleepiness and Snore have some 'strange values'.
 
 
 

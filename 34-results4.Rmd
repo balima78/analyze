@@ -9,13 +9,13 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, error = F)
 
 ## New Model {#results4}
 From the previous model we decided to discard also PHT,  Hypertension and Nocturia. 
-```{r}
+```{r new}
 
 new.model<-glm(formula = osa ~ Age.Cat + Conc.decrease + 
                  Gender + Genetics + CFA + VehicleCrashes + 
                  Humor + GE.Reflux + Diabetes + Driver + 
                  Hypothyroidism + Stroke + ESS.Cat + 
-                 Wit.Apneas , 
+                 Wit.Apneas, 
                family = "binomial",
                data = osa.Selected)
 
@@ -60,9 +60,9 @@ mce<-misClassError(osa.Selected$osa, pred.new, threshold = optCutOff)
 
 ```
 
-For a cut-off of 0.5, we have the confusion matrix (lines are predicted, columns are actuals):
-```{r}
-acc.new %>% kable() %>%
+For a cut-off of 0.5, we have the confusion matrix (table \@ref(tab:cm), lines are predicted, columns are actuals):
+```{r cm, tidy=FALSE}
+acc.new %>% kable(caption = "Confusion matrix") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
 ```
 

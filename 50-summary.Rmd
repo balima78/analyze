@@ -1,6 +1,8 @@
 # Conclusion
 
-We have finished a nice book.
+For this study we present Age.Cat, Conc.decrease, Gender, Genetics, CFA, VehicleCrashes , Humor, GE.Reflux, Diabetes, Driver, Hypothyroidism, Stroke, ESS.Cat, Wit.Apneas as main risk factores. 
+
+With this model and according to the confusion matrix (table \@ref(tab:cm)) we have a test sensitivity of _`r round(acc.new[2,2]/(acc.new[2,2]+acc.new[1,2])*100,2)`%_ and a specificity of _`r round(acc.new[1,1]/(acc.new[1,1]+acc.new[2,1])*100,2)`%_.
 
 
 

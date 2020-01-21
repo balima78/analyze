@@ -6,6 +6,6 @@ The aetiology of OSA is multifactorial, consisting of a complex interplay betwee
 
 Complications from recurrent OSA may include: daytime fatigue and sleepiness, cardiovascular problems, complications with medications and surgery, eye problems, or sleep-deprived partners. Also, people with obstructive sleep apnea may also complain of memory problems, morning headaches, mood swings or feelings of depression, and a need to urinate frequently at night (nocturia).
 
-In this exercise, our primary aim is to identify predictive factors for OSA, using multivariable logistic regression models; and identify risk factors for OSA.
+In this exercise, our primary aim is to identify predictive factors for OSA, using a multivariable logistic regression model.
 
 <img src="images/logoFMUP.png" alt="logotipo FMUP" style="width:100px;height:40px;" align="right">

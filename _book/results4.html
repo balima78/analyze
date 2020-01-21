@@ -24,7 +24,7 @@
 <meta name="author" content="Bruno Lima, Cátia Redondo" />
 
 
-<meta name="date" content="2020-01-20" />
+<meta name="date" content="2020-01-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -161,7 +161,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 From the previous model we decided to discard also PHT, Hypertension and Nocturia.
 <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
 <caption>
-<span id="tab:unnamed-chunk-17">Table 3.6: </span>New Logistic regression model
+<span id="tab:new">Table 3.6: </span>New Logistic regression model
 </caption>
 <thead>
 <tr>
@@ -657,8 +657,11 @@ r2CU
 </div>
 <div id="accuracy-1" class="section level3">
 <h3><span class="header-section-number">3.4.5</span> Accuracy</h3>
-For a cut-off of 0.5, we have the confusion matrix (lines are predicted, columns are actuals):
+For a cut-off of 0.5, we have the confusion matrix (table <a href="results4.html#tab:cm">3.7</a>, lines are predicted, columns are actuals):
 <table class="table table-striped" style="width: auto !important; ">
+<caption>
+<span id="tab:cm">Table 3.7: </span>Confusion matrix
+</caption>
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -702,13 +705,13 @@ For a cut-off of 0.5, we have the confusion matrix (lines are predicted, columns
 </div>
 <div id="roc" class="section level3">
 <h3><span class="header-section-number">3.4.6</span> ROC</h3>
-<p>Receiver Operating Characteristics Curve traces the percentage of true positives accurately predicted by our logit model as the prediction probability cutoff is lowered from 1 to 0. <img src="analyze_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
+<p>Receiver Operating Characteristics Curve traces the percentage of true positives accurately predicted by our logit model as the prediction probability cutoff is lowered from 1 to 0. <img src="analyze_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
 </div>
 <div id="vif" class="section level3">
 <h3><span class="header-section-number">3.4.7</span> VIF</h3>
 <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
 <caption>
-<span id="tab:unnamed-chunk-25">Table 3.7: </span>Variance Inflation Factors (VIF) to check for multicollinearity in the new model
+<span id="tab:unnamed-chunk-23">Table 3.8: </span>Variance Inflation Factors (VIF) to check for multicollinearity in the new model
 </caption>
 <thead>
 <tr>
